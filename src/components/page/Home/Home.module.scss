@@ -1,0 +1,229 @@
+.home {
+    padding-top: 30px;
+    height: 170vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+    .slide_show_main {
+        width: 98%;
+        margin-top: 30px;
+
+        .slideshow {
+            height: 300px;
+            color: #fff;
+            line-height: 300px, ;
+            text-align: center;
+            border-radius: 10px;
+
+            &.slideshow_1 {
+                background: linear-gradient(to right, rgb(255, 148, 2), rgb(254, 33, 94));
+            }
+
+            &.slideshow_2 {
+
+                background: linear-gradient(to right, rgb(40, 119, 250), rgb(103, 23, 205));
+            }
+
+            &.slideshow_3 {
+
+                background: linear-gradient(to right, rgb(0, 126, 254), rgb(6, 195, 254));
+            }
+
+            &.slideshow_4 {
+
+                background: linear-gradient(to right, rgb(255, 186, 164), rgb(104, 40, 250));
+            }
+
+            .logoMobi_Home {
+                width: 300px;
+                padding-top: 50px;
+                padding-left: 50px;
+
+            }
+        }
+
+        .Slide_Text {
+            text-align: initial;
+            // text-align: -webkit-auto;
+            padding-right: 30%;
+            padding-left: 60px;
+
+            .Slide_title {
+                color: #fff;
+
+            }
+        }
+
+        .Slide_Text {
+            .Slide_title_caption {
+
+                color: white;
+            }
+        }
+
+        #toRight {
+            padding-left: 20%;
+
+            .Banner {
+                width: 300px;
+            }
+        }
+
+    }
+
+    .status_import_main {
+        margin-top: 70px;
+
+        #itemList {
+            width: 100%;
+        }
+
+        .status_tiem {
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+
+            .iconCheck {
+                width: 30px;
+                height: 30px;
+            }
+
+            .status {
+                display: flex;
+
+                p {
+                    margin-left: 10px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 18px;
+
+
+                    color: #012278;
+                }
+            }
+
+            .qty_status {
+                p {
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 40px;
+                    margin-left: 40px;
+                    /* identical to box height */
+                    color: #000000;
+                }
+
+                span {
+                    font-style: normal;
+                    font-weight: 100;
+                    font-size: 20px;
+                    margin-bottom: 100px;
+                    color: #959CB6;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    #table_import {
+        width: 98%;
+        height: 100%;
+        left: 481px;
+        top: 1435px;
+        padding: 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+
+        table {
+            text-align: center;
+            font-size: 13px;
+
+            svg {
+                margin-bottom: 5px;
+            }
+        }
+
+        #btn_status {
+            width: 100%;
+        }
+
+    }
+
+
+}
+
+svg {
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 800px) {
+    .home {
+        height: 180vh;
+        background-color: #F4F6FC;
+    }
+
+}
+
+
+@media screen and (max-width : 1450px) {
+    .home {
+        height: 220vh;
+        background-color: #F4F6FC;
+
+        .status_import_main {
+            .status_tiem {
+                padding: 5px;
+
+                .iconCheck {
+                    width: 20px;
+                    height: 20px;
+                }
+                .status {
+                    p {
+
+                        font-size: 15px;
+                    }
+                }
+                .qty_status {
+                    p {                      
+                        font-size: 30px;                       
+                    }
+    
+                    span {
+                       
+                        font-size: 15px;                   
+                    }
+                }      
+            }
+            
+        }
+        #table_import{
+            table{
+                font-size: 12px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width : 1000px) {
+
+    .slide_show_main {
+        display: none;
+    }
+
+    #toRight {
+        .Banner {
+            display: none;
+        }
+    }
+
+    .status_import_main {
+        margin-top: 10px;
+    }
+
+
+}

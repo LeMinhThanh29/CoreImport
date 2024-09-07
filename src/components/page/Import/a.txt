@@ -1,0 +1,61 @@
+ <div className={cx("import_controller")}>
+<div className={cx("import_main")} >
+<div id={cx("file-upload-form")} className={cx("uploader")}>
+
+      <div
+        ref={wrapperRef}
+        className={cx("drop-file-input")}
+        onDragEnter={onDragEnter}
+        onDragLeave={onDragLeave}
+        onDrop={onDrop}
+    >
+        <div className={cx("drop-file-input__label")}>
+
+            <p>Drag & Drop your files here</p>
+        </div>
+        <input type="file" value="" onChange={onFileDrop} />
+    </div>
+
+
+
+</div>
+  
+
+
+    <div id={cx("file-upload-form")} className={cx("uploader")} >
+
+        <input id="file-upload" type="file" name="fileUpload" accept='.xlsx,.xls' onChange={onFileDrop} />
+
+        <label htmlFor="file-upload" id="file-drag">
+
+            <div id="start">
+                <i className="fa fa-download" style={{ fontSize: 35 }} aria-hidden="true"></i>
+                <h4>Chọn hoặc Kéo thả file lên chương trình</h4>
+                <div>(Hãy tổng hợp tất cả dữ liệu muốn
+                    import vào file execl )   </div>
+                <Text type="success" id={cx("notimage")}>{fileImport.name}</Text>
+
+                <Button type='primary' id={cx("file-upload-btn")} className="btn btn-primary" onClick={(e) => { handleSubmit(e) }}>Bắt Đầu Import</Button>
+            </div>
+            <div id={cx("response")} className={cx("hidden")}>
+                <div id={cx("messages")}></div>
+                <progress className={cx("progress")} id={cx("file-progress")} value="0">
+                    <span>0</span>%
+                </progress>
+            </div>
+        </label>
+    </div>
+
+
+
+
+</div>
+</div>
+
+
+<input id="file-upload" type="file" name="fileUpload" accept='.xlsx,.xls' onChange={(e) => {
+    const file = e.target.files[0];
+    onFileDrop(e);
+    setFile(file)
+   
+}} />

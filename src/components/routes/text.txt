@@ -1,0 +1,9 @@
+const editUser = (id) => () => {
+    // todo;
+};
+
+function editUser(id) {
+    return () => {
+        console.log(id);
+    }
+}

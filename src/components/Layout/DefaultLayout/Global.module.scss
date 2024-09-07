@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@200&family=Playfair+Display&family=Poppins:ital,wght@0,300;1,300&display=swap");
+
+.home {
+  position: absolute;
+  top: 0;
+  top: 0;
+  left: 230px;
+  width: calc(100% - 230px);
+  background-color: #f4f6fc;
+  transition: var(--tran-05);
+
+  .global_home {
+    padding-left: 50px;
+  }
+  &.mini {
+    left: 78px;
+    width: calc(100% - 78px);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .home {
+    .global_header {
+      padding-left: 10px;
+    }
+    .global_home {
+      padding-left: 30px;
+    }
+  }
+}
+body::-webkit-scrollbar {
+  display: none; /* cho Chrome, Safari, and Opera */
+}

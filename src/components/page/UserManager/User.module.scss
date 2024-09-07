@@ -1,0 +1,79 @@
+.home {
+  
+    padding-top: 30px;
+    height: 150vh;
+   
+    .user_container {
+        margin-top: 50px;
+        button{
+            font-size: 12px;
+        }
+        .user_table {
+            margin-top: 20px;
+           .user_title{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            color: #000000;
+           }
+            .table_main{
+                width: 98%;
+                height: 100%;
+                background-color: white;
+                border-radius: 10px;
+                padding: 30px;
+                font-size: 14px;
+                .filter_user{
+                    margin-bottom: 10px;
+                   .input_find{
+                    border-radius: 5px;
+                    width: 200px;
+                   }
+                   .choose_search{
+                    width: 200px;
+                   }
+                }
+                #table_user{
+                    text-align: center;
+                    margin-top: 10px;
+                    thead{
+                        background-color: rgb(229, 229, 229);
+                    }
+                }
+                
+            }
+        }
+        .user_from{
+            .form_user{
+                background-color: white;
+                padding: 30px ;
+                padding-right: 100px;
+                width: 98%;
+                font-size: 15px;
+                border-radius:5px;
+              
+              
+            }
+            .back_button{
+                cursor: pointer;
+            }
+        }
+      
+    }
+}
+
+.success{
+    background-color: #28B463  ;
+    border-color: #2ECC71;
+}
+
+@media screen and (max-width : 1000px) {
+    #select_cty{
+        margin-top: 15px;
+        .choose_search{
+            width: 300px;
+           }
+    }
+
+}
+

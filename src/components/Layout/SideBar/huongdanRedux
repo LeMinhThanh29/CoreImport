@@ -1,0 +1,6 @@
+đầu tiên tạo store bao gồm reducer và configStore
+bước 2 tạo slice tạo initstate và các reducer muốn thao tác crud
+bước 3 đem nó vào store để vào phần reducer
+vài file index cấu hình provider (giống react context)
+muốn lấy hay xài state thì sử dụng useSelector
+muốn thao tác crud thì sử dụng useDispath

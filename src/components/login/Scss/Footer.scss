@@ -1,0 +1,49 @@
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    top: 650px;
+    color: white;
+    background: #192041;
+ 
+    font-size: 15px;
+    .container{
+        margin-top:40px;
+    }
+    
+    h6{
+        text-transform: uppercase;
+
+        color: white;  
+    }
+}
+
+#logo {
+    .logoMobi {
+        position: absolute;
+        width: 280px;
+        height: 65px;
+        left: 70px;
+        top: 60px;
+
+
+    }
+}
+
+#info {
+
+    .title {
+        position: relative;
+        top: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    .footer{
+        color: white;
+        height: 700px;
+        top: 500px;
+    }
+}

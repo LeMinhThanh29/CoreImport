@@ -1,0 +1,78 @@
+.home {
+    padding-top: 30px;
+    height: 140vh;
+    .program_controller{
+        margin-top: 50px;
+        button{
+            font-size: 12px;
+        }
+        .program_form_main{
+                 width: 98%;
+                height: 100%;
+                background-color: white;
+                border-radius: 10px;
+                padding: 30px;
+              
+                font-size: 14px;
+                .success{
+                    color: white;
+                    background-color: #28B463  ;
+                    border-color: #2ECC71;
+                }
+            
+        }
+        .program_table{
+            margin-top: 20px;
+            .program_title{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                color: #000000;
+            }
+            .program_table_main{
+                width: 98%;
+                background-color: white;
+                padding: 30px;
+                border-radius: 8px;
+                .filter_program{
+                    margin-bottom: 10px;
+                }
+                #table_program{
+                    text-align: left;
+                }
+              
+            }
+           
+        }
+       .program_form{
+        .back_click{
+            cursor: pointer;
+        }
+        .button_action{
+            margin-top: 10px;
+        }
+      
+       }
+       .program_table{
+            .warning{
+                background-color: #F1BD06;
+                border-color:#ffd53f ;
+            }
+            .success{
+                background-color: #28B463  ;
+                border-color: #2ECC71;
+            }
+            #table_program{
+                button{
+                    width: 100px;
+                }
+                thead{
+                    background-color: rgb(229, 229, 229);
+                }
+            }
+       }
+       .authen{
+        height: 1000px;
+    }
+    }
+}

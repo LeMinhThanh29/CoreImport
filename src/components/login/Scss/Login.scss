@@ -1,0 +1,62 @@
+#main {
+
+    height: 1000px;
+
+}
+
+.image1 {
+
+   
+        position: absolute;
+        width: 380px;
+        left: 0px;
+        top: 34px;
+    
+
+}
+
+.image2 {
+
+   
+        position: absolute;
+        width: 380px;
+        right: 5px; // 5px relative to the most-right of parent
+        top: 2px;
+        transform: rotate(-179.62deg);
+   
+}
+
+
+.logoMobi {
+    position: relative;
+    z-index: 1;
+    width: 200px;
+  
+  
+}
+
+#fromLogin_main{
+    position: relative;
+    bottom: 70px;
+}
+#fromLogin{
+    position: relative;
+    z-index: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+    .image1 {
+        width: 180px;
+    }
+
+    .image2 {
+         width: 180px;
+    }
+
+    #fromLogin{
+        position: relative;
+        z-index: 1;
+    }
+
+}

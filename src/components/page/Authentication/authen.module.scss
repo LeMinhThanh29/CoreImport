@@ -1,0 +1,22 @@
+.authen_controller {
+  .select_authen {
+    width: 100%;
+  }
+  .success {
+    background-color: #28b463;
+    border-color: #2ecc71;
+  }
+  .table_authen {
+    margin-top: 10px;
+    table {
+      text-align: center;
+    }
+  }
+}
+.table_authen {
+  thead[class*="ant-table-thead"] th {
+    font-weight: bold;
+
+    text-align: center;
+  }
+}
